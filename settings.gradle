@@ -4,5 +4,12 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral() // リポジトリを指定する
+        gradlePluginPortal()
+    }
+}
+
 
 rootProject.name = 'EnemyDownApp'
