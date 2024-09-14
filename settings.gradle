@@ -1,2 +1,8 @@
+pluginManagement {
+    repositories {
+        mavenCentral() // 必要に応じて他のリポジトリも追加
+        gradlePluginPortal()
+    }
+}
 
 rootProject.name = 'EnemyDownApp'
